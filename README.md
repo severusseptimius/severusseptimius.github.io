@@ -22,3 +22,5 @@ Than download the public key:
 And finally update and enjoy:
 
 > sudo apt update && sudo apt full-upgrade
+
+**NOTE**: In order for the update to be complete, you *must* use `apt full-upgrade` instead of `apt upgrade`.
