@@ -1,0 +1,1394 @@
+Package: libfm-qt-dev
+Source: libfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 349
+Depends: libexif-dev, libfm-qt13 (= 1.3.0-0.1~S7), libmenu-cache-dev
+Breaks: libfm-qt5-dev
+Replaces: libfm-qt5-dev
+Filename: ./libfm-qt-dev_1.3.0-0.1~S7_amd64.deb
+Size: 69600
+MD5sum: 7769b19d195377e4a81c84895363fa76
+SHA1: 84b62690d811536064a20591a071ae126779ea85
+SHA256: 6d1486eea51ddc109fe8350163d0c556eca912d4194f34c985e4bf410db5bb06
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/libfm-qt
+Description: file management support library for pcmanfm-qt (development files)
+ Libfm-Qt is a companion library providing components to build desktop file
+ managers.
+ .
+ This package contains development files for helper library libfm-qt.
+
+Package: libfm-qt-l10n
+Source: libfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1040
+Depends: qttranslations5-l10n
+Breaks: libfm-qt3 (<< 0.11.1)
+Replaces: libfm-qt3 (<< 0.11.1)
+Filename: ./libfm-qt-l10n_1.3.0-0.1~S7_all.deb
+Size: 156456
+MD5sum: ccd048d4ffec5e1104954f18134672b1
+SHA1: 4c8cea093ab36abcb8fff65cf2af4c9b798b4cb7
+SHA256: 7c573739630801845e6f4d668995f83a6b1ff2d81fe7f1bb549c15ff282d869e
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/libfm-qt
+Description: Language package for libfm-qt
+ Libfm-Qt is a companion library providing components to build desktop file
+ managers.
+ .
+ This package contains the l10n files needed by the libfm-qt.
+
+Package: libfm-qt13
+Source: libfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1492
+Depends: libc6 (>= 2.33), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.70.0), libmenu-cache3 (>= 0.5.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.12.2) | libqt5gui5-gles (>= 5.12.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxcb1, qtbase-abi-5-15-8, libglib2.0-bin, shared-mime-info
+Recommends: libfm-qt-l10n
+Conflicts: libfm-qt
+Breaks: libfm-qt11, libfm-qt12, libfm-qt2, libfm-qt3, libfm-qt5, libfm-qt5-2, libfm-qt6, libfm-qt8, libfm-qt9
+Replaces: libfm-qt11, libfm-qt12, libfm-qt2, libfm-qt3, libfm-qt5, libfm-qt5-2, libfm-qt6, libfm-qt8, libfm-qt9
+Provides: libfm-qt
+Filename: ./libfm-qt13_1.3.0-0.1~S7_amd64.deb
+Size: 434920
+MD5sum: d8bb86058d43fff30585e953846d4dea
+SHA1: 43d8f5ee62dfa3a12ebf067c9cadbd2bb8210b5d
+SHA256: e37d93bd0c8083c5d4d3a0ce92bed550621da7ff7caa6c058615de596cc097b4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/libfm-qt
+Description: file management support for pcmanfm-qt
+ Libfm-Qt is a companion library providing components to build desktop file
+ managers.
+ .
+ This package contains helper library libfm-qt for pcmanfm-qt.
+
+Package: liblxqt-backlight-helper
+Source: liblxqt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: liblxqt1 (= 1.3.0-0.1~S7), libc6 (>= 2.34)
+Breaks: liblxqt0 (<< 0.99), liblxqt1 (<< 1.2.0-2)
+Replaces: liblxqt0 (<< 0.99), liblxqt1 (<< 1.2.0-2)
+Filename: ./liblxqt-backlight-helper_1.3.0-0.1~S7_amd64.deb
+Size: 19156
+MD5sum: ae5ce16958fbe28bf12527368963cbf7
+SHA1: 18d0ece7121166d92a2d6cbf02f426d9ca5d5671
+SHA256: 1ee6c8a8c0f1c818bd1c491cc9c68c77187f51a5da9de25d64384d9befc1cba0
+Section: libs
+Priority: optional
+Homepage: https://github.com/lxqt/liblxqt
+Description: backlight helper for liblxqt
+ This package contains the backlight helper for liblxqt.
+
+Package: liblxqt-globalkeys-ui1
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libc6 (>= 2.4), liblxqt-globalkeys1 (= 1.3.0-0.1~S7), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: liblxqt-globalkeys-ui0 (<< 0.99.0)
+Replaces: liblxqt-globalkeys-ui0 (<< 0.99.0)
+Filename: ./liblxqt-globalkeys-ui1_1.3.0-0.1~S7_amd64.deb
+Size: 14808
+MD5sum: 0ef4190c5cad42b2e72b3912065384ec
+SHA1: 15c59b5ed4de66d7df9f313071ffcb58ef2d6134
+SHA256: ef21e95192df79163b7bf1d32bd89c588a567a8cfbbd65cab3e561ab8a9380f1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (ui files)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the ui for LXQt globalkeys.
+
+Package: liblxqt-globalkeys-ui1-dev
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: liblxqt-globalkeys-ui1 (= 1.3.0-0.1~S7)
+Breaks: liblxqt-globalkeys-ui0-dev (<< 0.99.0)
+Replaces: liblxqt-globalkeys-ui0-dev (<< 0.99.0)
+Filename: ./liblxqt-globalkeys-ui1-dev_1.3.0-0.1~S7_amd64.deb
+Size: 12672
+MD5sum: 46938d4f9fbe7b456888a8d554e11fbe
+SHA1: b8c72b128a1401789bbe5fc876ff1559767cf02a
+SHA256: 30e953820e2d687dd326827b95b085003c1a8b3e969fa6ec6087c572e69d10ac
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (ui dev files)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the ui development files.
+
+Package: liblxqt-globalkeys1
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: liblxqt-globalkeys0 (<< 0.99.0)
+Replaces: liblxqt-globalkeys0 (<< 0.99.0)
+Filename: ./liblxqt-globalkeys1_1.3.0-0.1~S7_amd64.deb
+Size: 30932
+MD5sum: e571ed892d284e498314d58638072b0d
+SHA1: 4d3a83d14ea3d5e3049ea13bafb6e6d56f6a9088
+SHA256: c855e8ef9412e5b5107d76b60cf6c7a95c086b6359ca14a129e28e8116485735
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (shared libs)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the shared libs for LXQt globalkeys.
+
+Package: liblxqt-globalkeys1-dev
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: liblxqt-globalkeys1 (= 1.3.0-0.1~S7)
+Breaks: liblxqt-globalkeys0-dev (<< 0.99.0)
+Replaces: liblxqt-globalkeys0-dev (<< 0.99.0)
+Filename: ./liblxqt-globalkeys1-dev_1.3.0-0.1~S7_amd64.deb
+Size: 12876
+MD5sum: b05ad0331a8632cd2bde2ca6df5ada15
+SHA1: 089da67ba7ba6f8bb0bc31c6eeb80c54b63e36f3
+SHA256: 165b3a2cca82adfcafe5bdad7ffac9e88c8a10ff6a3d2c9fa0174c729a8698e5
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (dev files)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the development files.
+
+Package: liblxqt-l10n
+Source: liblxqt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 250
+Depends: qttranslations5-l10n
+Filename: ./liblxqt-l10n_1.3.0-0.1~S7_all.deb
+Size: 41896
+MD5sum: ab837db2f99e4a2236096b8c5fcc07bb
+SHA1: 6baa611cfb530d3d7dcb5fdfe575ac520d8fc25b
+SHA256: 982605e8b7c3cf5f62e01b413e8a1c5696c87fda5c35658800b09b9af833b100
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/liblxqt
+Description: Language package for liblxqt
+ This package contains the l10n files needed by the liblxqt.
+
+Package: liblxqt1
+Source: liblxqt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 319
+Depends: desktop-file-utils, shared-mime-info, libc6 (>= 2.14), libkf5windowsystem5 (>= 5.36.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.12.2) | libqt5gui5-gles (>= 5.12.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5.2), libx11-6, libxss1
+Recommends: liblxqt-l10n
+Breaks: liblxqt0 (<< 0.99)
+Replaces: liblxqt0 (<< 0.99)
+Filename: ./liblxqt1_1.3.0-0.1~S7_amd64.deb
+Size: 90920
+MD5sum: ad65af5a6e14344f5a12dcf36378f00e
+SHA1: 5a966ba77c3c0200a3f05debaf0f2869398ec4c6
+SHA256: d03adaa2610ec104c52b1c87468acd5775e8da2aa235cc71da466c18833357cc
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/liblxqt
+Description: Shared libraries for LXQt desktop environment (libs)
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contains the shared libraries needed by the LXQt desktop
+ environment.
+
+Package: liblxqt1-dev
+Source: liblxqt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 131
+Depends: liblxqt1 (= 1.3.0-0.1~S7), libqt5xdg-dev (>= 3.11.0~), libqt5xdgiconloader-dev (>= 3.11.0~), lxqt-build-tools (>= 0.13.0~)
+Breaks: liblxqt0 (<< 0.99)
+Replaces: liblxqt0 (<< 0.99)
+Filename: ./liblxqt1-dev_1.3.0-0.1~S7_amd64.deb
+Size: 31252
+MD5sum: d1c02b417f7df4ae103c011328f2b6a4
+SHA1: 977b6ddf8f36fbaae8480374226716da1a0765bf
+SHA256: 646aceaaaa0b5b92b98b4968a9e5db1f6be3cf43d29f82f2c90128609824e02d
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/liblxqt
+Description: Shared libraries for LXQt desktop environment (dev)
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contain the development files.
+
+Package: libqt5xdg-dev
+Source: libqtxdg
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 112
+Depends: libmagic-dev, libqt5xdg3 (= 3.11.0-0.1~S7), libqt5xdgiconloader-dev (= 3.11.0-0.1~S7)
+Recommends: qtxdg-dev-tools (= 3.11.0-0.1~S7)
+Filename: ./libqt5xdg-dev_3.11.0-0.1~S7_amd64.deb
+Size: 27124
+MD5sum: 1a0ab4d9180eb9728bf4f205a884743c
+SHA1: 61f72f2d111cf81bf97f8d8796c8c29df714bc9d
+SHA256: 4d500b643421de9afe59883c29e3f691b1700a84bb617df8fed8fffaffd788d2
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/libqtxdg
+Description: Development files for libqtxdg
+ This library implements functions of the XDG Specifications in Qt. It is part
+ of LXQt.
+ .
+ This package provides development files.
+
+Package: libqt5xdg3
+Source: libqtxdg
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 279
+Depends: file, libfile-mimeinfo-perl, libglib2.0-bin, shared-mime-info, libc6 (>= 2.14), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.1.0), libqt5xdgiconloader3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-8
+Recommends: qttranslations5-l10n
+Provides: libqt5xdg
+Filename: ./libqt5xdg3_3.11.0-0.1~S7_amd64.deb
+Size: 91380
+MD5sum: cda2c134253e9562e14a8737bdfaff2a
+SHA1: 2ff029d6a4c9a8d2318582833ff1b5c03a32896f
+SHA256: 6fbe0641bc72309179048c15a877c7b695d9efc57945cb5b7268744c9f0ae30d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/libqtxdg
+Description: Implementation of the XDG Specifications for Qt (shared lib)
+ This library implements functions of the XDG Specifications in Qt.  It is part
+ of LXQt.
+ .
+ This package provides the shared library.
+
+Package: libqt5xdgiconloader-dev
+Source: libqtxdg
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 72
+Depends: libqt5svg5-dev, libqt5xdgiconloader3 (= 3.11.0-0.1~S7), libc6 (>= 2.2.5), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./libqt5xdgiconloader-dev_3.11.0-0.1~S7_amd64.deb
+Size: 21876
+MD5sum: 14ab331473509327c841590cff0eca7c
+SHA1: 9f3c7b30f005338fe5b1a08afafa027d77ad1aed
+SHA256: 87a0d708e4d5047944ae2a7a4cbfaa0106e1473b5fb05d4ebbc8b501a77b2635
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/libqtxdg
+Description: Development files for libqtxdgiconloader
+ This library implements the backend to load icons which are handled according
+ to the XDG Icon Theme Specification in Qt. It is part of LXQt.
+ .
+ This package provides development files.
+
+Package: libqt5xdgiconloader3
+Source: libqtxdg
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 99
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-8
+Recommends: gtk-update-icon-cache
+Provides: libqt5xdgiconloader
+Filename: ./libqt5xdgiconloader3_3.11.0-0.1~S7_amd64.deb
+Size: 37652
+MD5sum: 6ba0675d414ef865d6badc781a8da150
+SHA1: 17af41238d642e36f5c038cc37380b2d93df552f
+SHA256: e45872195097f91caa5d56dd33fa9841aa7c9c1d00b92b8b15cfc15581a83ed4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/libqtxdg
+Description: Implementation of the XDG Iconloader for Qt (shared lib)
+ This library implements the backend to load icons which are handled according
+ to the XDG Icon Theme Specification in Qt. It is part of LXQt.
+ .
+ This package provides the shared library.
+
+Package: libqtermwidget5-1
+Source: qtermwidget
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 523
+Depends: qtermwidget5-data (= 1.3.0-0.1~S7), libc6 (>= 2.33), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libutf8proc2 (>= 1.3)
+Recommends: fonts-hack
+Breaks: libqtermwidget5-0 (<< 0.99.0)
+Replaces: libqtermwidget5-0 (<< 0.99.0)
+Filename: ./libqtermwidget5-1_1.3.0-0.1~S7_amd64.deb
+Size: 171332
+MD5sum: ca3da61b9cb325322871571eae9bf10e
+SHA1: 3f41294a54d0fb5a68e4fbf866c6c0f7fab0f75c
+SHA256: 6e7ef04d2c8d24712da7f3520423522a14bf384f165f80828bd70e30acfd8e6e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/qtermwidget
+Description: Terminal emulator widget for Qt 5 (shared libraries)
+ QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
+ built-in console or terminal emulation widget.
+ .
+ This package provides the shared libraries.
+
+Package: libqtermwidget5-1-dev
+Source: qtermwidget
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 112
+Depends: libqtermwidget5-1 (= 1.3.0-0.1~S7)
+Replaces: libqtermwidget5-0-dev
+Filename: ./libqtermwidget5-1-dev_1.3.0-0.1~S7_amd64.deb
+Size: 30680
+MD5sum: 14b2a8add26dcbcd7a38c8be70f96b8c
+SHA1: 51a338d6deae7b1fe13943937358e6ab75ec3863
+SHA256: f8bb1bd7466da4ce9b813254a93890d68307570df7f9217b49b80b8cf969d705
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/qtermwidget
+Description: Terminal emulator widget for Qt 5 (development files)
+ QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
+ built-in console or terminal emulation widget.
+ .
+ This package provides the development files.
+
+Package: lximage-qt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 484
+Depends: libc6 (>= 2.34), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.35.9), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.15.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxfixes3
+Recommends: lximage-qt-l10n, qt5-image-formats-plugins
+Filename: ./lximage-qt_1.3.0-0.1~S7_amd64.deb
+Size: 129140
+MD5sum: 44896e3e8a20b25ae24763bfd68b98cc
+SHA1: 493ef85e9199f5b870441443f71b0ad8f7cefd66
+SHA256: d52a68e4f8cbf086db84fdecc033e714b3a2546b7d3272d4fb55e48b16092848
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lximage-qt
+Description: Image viewer for LXQt
+ A simple image viewer for LXQt. Additional file formats can be processed if
+ one install qt5-image-formats-plugins.
+ .
+ This package contain the program files.
+
+Package: lximage-qt-l10n
+Source: lximage-qt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 710
+Depends: qttranslations5-l10n
+Filename: ./lximage-qt-l10n_1.3.0-0.1~S7_all.deb
+Size: 103656
+MD5sum: d79d548da5ff157084a3def0f7f90ddf
+SHA1: 1c6d1f977c932ab2dc3c5754e12110940332a2cd
+SHA256: 43db5c42ada48a14ce1a2b39bf08f406106dae532f02062c2b3dccebcb3a9536
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lximage-qt
+Description: Language-package for lximage-qt
+ A simple image viewer for LXQt. Additional file formats can be processed if
+ one install qt5-image-formats-plugins.
+ .
+ This package contains the l10n files needed by the lximage-qt.
+
+Package: lxqt-about
+Version: 1.3.0-0.1
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 174
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Recommends: lxqt-about-l10n, lxqt-qtplugin
+Filename: ./lxqt-about_1.3.0-0.1_amd64.deb
+Size: 42076
+MD5sum: c803b7a19d99e4203dd1c960ade97360
+SHA1: f38da1306628436643aa6676c8e8633311bb388d
+SHA256: 396f3f8f574d22cff5d28b6b8786b6d5373586e5ae65ec69e0d86a9593ecc478
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-about
+Description: About screen for LXQt
+ The about screen for LXQt
+ .
+ This package contain the LXQt about screen.
+
+Package: lxqt-about-l10n
+Source: lxqt-about
+Version: 1.3.0-0.1
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 152
+Depends: qttranslations5-l10n
+Filename: ./lxqt-about-l10n_1.3.0-0.1_all.deb
+Size: 27100
+MD5sum: 7046841af00b0bab070655b981ec5657
+SHA1: 25127346da03c09c63f635eb35d699fb6909b0da
+SHA256: fae6a8d009be8fa1a141690557e33c477a4f44d18cd6920951a7ab3d76c074b1
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-about
+Description: Language package for lxqt-about
+ The about screen for LXQt
+ .
+ This package contains the l10n files needed by the lxqt-about.
+
+Package: lxqt-admin
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 242
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Recommends: lxqt-admin-l10n, lxqt-policykit, lxqt-qtplugin
+Filename: ./lxqt-admin_1.3.0-0.1~S7_amd64.deb
+Size: 58968
+MD5sum: 2431c91df79ad79bbeee2c9d8f505438
+SHA1: 75c03fe5dcccb84e70fbc881148c5525bda75314
+SHA256: b6e0a4397c9b7a5147dc165bdf4731b921db239606da1c786139e7ccc0e70f5f
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-admin
+Description: Admin tools for LXQt
+ Admin tools for LXQt, as of now:
+  * lxqt-admin-time
+  * lxqt-admin-user
+ .
+ This package contain the LXQt Admin Tools.
+
+Package: lxqt-admin-l10n
+Source: lxqt-admin
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 262
+Depends: qttranslations5-l10n
+Filename: ./lxqt-admin-l10n_1.3.0-0.1~S7_all.deb
+Size: 39092
+MD5sum: c5edc91d8cf2d2efedf319b70ef9c0af
+SHA1: 581efb51666845cc247dd8657d4ee17e55cd1a39
+SHA256: 3e27bc913e17f6af4f204e52484f521849862e7d89a4c0c5da0959f98763a7d6
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-admin
+Description: Language package for lxqt-admin
+ The l10n files for lxqt-admin.
+ .
+ This package contains the l10n files needed by lxqt-admin.
+
+Package: lxqt-archiver
+Version: 0.8.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 476
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.35.9), libjson-glib-1.0-0 (>= 1.5.2), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), bzip2, p7zip-full
+Recommends: gvfs, lxqt-archiver-l10n, unzip, xz-utils, zip
+Suggests: arj, binutils, cpio, lha, lzip, lzma, lzop, ncompress, rar, rpm2cpio, rzip, sharutils, unace, unalz, unrar-free | unar | unrar | p7zip-rar, zoo
+Filename: ./lxqt-archiver_0.8.0-0.1~S7_amd64.deb
+Size: 145080
+MD5sum: 523b1e656c4a44bfca3f5ca8d83c3384
+SHA1: 50975c077192989afb0b48be3b393fa6853611ec
+SHA256: c4f15d1c63785ba280e3f01f5097260505f21f6a3b92f14d91d7ef513c3c8819
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-archiver
+Description: Archiv Manager for LXQt
+ LXQt Archiver is an archive manager for the LXQt environment.
+ It allows you to:
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ LXQt Archiver supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ LXQt Archiver doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+ .
+ This package contain the LXQt archiver.
+
+Package: lxqt-archiver-l10n
+Source: lxqt-archiver
+Version: 0.8.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 585
+Depends: qttranslations5-l10n
+Filename: ./lxqt-archiver-l10n_0.8.0-0.1~S7_all.deb
+Size: 75444
+MD5sum: 65c2f20e96ebb2a52a4b60f4bb743369
+SHA1: ea307b8cd6351655d3b9eaac6efe0a6d5075ebf4
+SHA256: 7da96530e9477fccc40f9744d50d305873fde0289de3f7aa6f95a45dd19cffa3
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-archiver
+Description: Language package for lxqt-archiver
+ LXQt Archiver is an archive manager for the LXQt environment.
+ .
+ This package contains the l10n files needed by the lxqt-archiver.
+
+Package: lxqt-build-tools
+Version: 0.13.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 185
+Depends: binutils, cmake, libglib2.0-dev (>= 2.73.1), pkg-config, qttools5-dev, qttools5-dev-tools
+Recommends: git, lintian
+Filename: ./lxqt-build-tools_0.13.0-0.1~S7_all.deb
+Size: 32536
+MD5sum: 33676409a54cfcfae9a27c6914cf93b5
+SHA1: 7abbf344902ea6e9c88eca11a90ec45bc7cf8aa5
+SHA256: 128fde54dd991cb46cc6349706347c5e44f910ce038544d74d08cdef05c16958
+Section: devel
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-build-tools
+Description: Build tools for the LXQt desktop environment
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contains the tools that are needed by the LXQt build process.
+
+Package: lxqt-config
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1327
+Depends: libc6 (>= 2.34), libkf5screen-bin (>= 4:5.17.5~), libkf5screen8 (>= 4:5.6.2), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6, libxcb-randr0 (>= 1.3), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), zlib1g (>= 1:1.1.4)
+Recommends: galternatives, lxqt-config-l10n, lxqt-policykit, lxqt-powermanagement, lxqt-qtplugin, lxqt-session, qt5-style-plugins, system-config-printer, xsettingsd
+Suggests: adwaita-qt, faenza-icon-theme, gnome-themes-standard, gparted | partitionmanager, cmst | network-manager-gnome, lxqt | lxqt-core, lxappearance, obconf-qt, synaptic
+Filename: ./lxqt-config_1.3.0-0.1~S7_amd64.deb
+Size: 322020
+MD5sum: 4bad4c666961af7b24f4c657b8a87b50
+SHA1: 4c7fe3e278bd4300b7776e05711325f2fec8553f
+SHA256: 7cb63ef9baf45070b25107639d71a3e69b175f860075aa6b196e1f84ebd8b939
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-config
+Description: LXQt system settings center
+ The LXQt system settings center which summarizes all configuration tools as
+ well as counterparts of other LXQt components or third-party applications.
+ .
+ This package contain the LXQt configuration ui.
+
+Package: lxqt-config-l10n
+Source: lxqt-config
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1228
+Depends: qttranslations5-l10n
+Filename: ./lxqt-config-l10n_1.3.0-0.1~S7_all.deb
+Size: 170828
+MD5sum: 5614ecc3d617bb2227687b7b96cc478f
+SHA1: 4ccb214a1dff180af0b1bbd074daed83ff4fe437
+SHA256: 6052ade3df94e8cc658b110267ec4d533c57f63cc681e603ba7014308849d485
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-config
+Description: Language package for lxqt-config
+ The LXQt system settings center which summarizes all configuration tools as
+ well as counterparts of other LXQt components or third-party applications.
+ .
+ This package contains the l10n files needed by the lxqt-config.
+
+Package: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 542
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), libx11-6
+Recommends: lxqt-globalkeys-l10n, lxqt-qtplugin, lxqt-session
+Suggests: lxqt | lxqt-core
+Filename: ./lxqt-globalkeys_1.3.0-0.1~S7_amd64.deb
+Size: 153384
+MD5sum: a014a71c959b6a3d970e3bf15eef70ec
+SHA1: 2f8b80abe7e862231f6c4766eff9c6f2ea0def6e
+SHA256: 65349ad22c414cb702c350e2e1650f169e10de7b03108542263b96b1ed2ba3c0
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (appl.)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the program files for LXQt globalskeys.
+
+Package: lxqt-globalkeys-l10n
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 138
+Depends: qttranslations5-l10n
+Filename: ./lxqt-globalkeys-l10n_1.3.0-0.1~S7_all.deb
+Size: 25120
+MD5sum: 3947b8a25d4301d3d5ca4a0de86b7956
+SHA1: 89aeeff8ac5ad9623817ea6d0ae94fb19c28964a
+SHA256: a7a4961f6f713be129e087431cbb8dc576b592f8aa527fedb945abaa9f8ace22
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: Language package for lxqt-globalkeys
+ The l10n files for lxqt-globalkeys.
+ .
+ This package contains the l10n files needed by lxqt-globalkeys.
+
+Package: lxqt-notificationd
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 262
+Depends: libc6 (>= 2.34), libkf5windowsystem5 (>= 4.96.0), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.6.0~beta), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Recommends: lxqt-notificationd-l10n, lxqt-qtplugin
+Provides: notification-daemon
+Filename: ./lxqt-notificationd_1.3.0-0.1~S7_amd64.deb
+Size: 65204
+MD5sum: 623fe57906dec7302344d4e34b130435
+SHA1: b6b6f62d4eb6e19f228416f9388b2fe473c2d9bf
+SHA256: 36fab8a3f6b30e242a586fb05ea301e000a9f2dee84bc860b835db4d789deba5
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-notificationd
+Description: LXQt notification daemon
+ The LXQt notification daemon.
+ .
+ This package contain the LXQt notification daemon.
+
+Package: lxqt-notificationd-l10n
+Source: lxqt-notificationd
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 210
+Depends: qttranslations5-l10n
+Filename: ./lxqt-notificationd-l10n_1.3.0-0.1~S7_all.deb
+Size: 33988
+MD5sum: 537e9258a1e2cce720503a25d0440e53
+SHA1: 9ede381e74c54ada90e17fd7dcb3d929da8b9a39
+SHA256: 5e55b18dbe0affad5c62e093c71be56d7ffcb9272981c8aab4706a52c5b147c7
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-notificationd
+Description: Language package for lxqt-notificationd
+ The l10n files for lxqt-notificationd.
+ .
+ This package contains the l10n files needed by lxqt-notificationd.
+
+Package: lxqt-openssh-askpass
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin, lxqt-session
+Suggests: lxqt | lxqt-core
+Provides: ssh-askpass
+Filename: ./lxqt-openssh-askpass_1.3.0-0.1~S7_amd64.deb
+Size: 14888
+MD5sum: 4a51ca7e8ed5d4199969d45c1583447a
+SHA1: 867eba3e7f4a88b4d0a69d6b8adc819c9368d717
+SHA256: bb5f48f4e614a8d5fd5b9752400a8194ca150d026573e9a0e6829dd29090c686
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-openssh-askpass
+Description: OpenSSH user/password GUI dialog for LXQt
+ This module handles openssh security password access for LXQt. The openssh
+ askpass module, will perform security test over scale access privileges.
+ .
+ The LXQt modules are desktop independent tools, and operate as daemons for the
+ local user for desktop specific operations.
+ .
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies, ships several core desktop components, all of which are
+ optional:
+ .
+  * Panel
+  * Desktop
+  * Application launcher
+  * Settings center
+  * Session handler
+  * Polkit handler
+  * SSH password access (this)
+  * Display manager handler
+ .
+ These components perform similar actions to those available in other
+ desktop environments, and their names are self-descriptive. They are usually
+ not launched by hand but automatically, when choosing a LXQt session in the
+ Display Manager.
+
+Package: lxqt-openssh-askpass-l10n
+Source: lxqt-openssh-askpass
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: qttranslations5-l10n
+Filename: ./lxqt-openssh-askpass-l10n_1.3.0-0.1~S7_all.deb
+Size: 8732
+MD5sum: 8e0e5fef1fbeeecbdf71282b07796653
+SHA1: c991e6e4582d8024bbc65bf44deff810c9e5589b
+SHA256: 84f05d9d33c8c1b1c72178c220a5bb50ee4a280059942aed8fe7c5e7e4e2fbb5
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-openssh-askpass
+Description: Language package for lxqt-openssh-askpass
+ The l10n files for lxqt-openssh-askpass.
+ .
+ This package contains the l10n files needed by lxqt-openssh-askpass.
+
+Package: lxqt-panel
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 2527
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.3.2), libkf5solid5 (>= 4.97.0), libkf5windowsystem5 (>= 5.6.0+git20150112.0023+15.04), liblxqt-globalkeys-ui1 (>= 1.1.0~), liblxqt-globalkeys1 (>= 1.1.0~), liblxqt1 (>= 1.2.0~), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libsensors5 (>= 1:3.5.0), libstatgrab10 (>= 0.92.1), libstdc++6 (>= 5.2), libsysstat-qt5-0 (>= 0.4.6~), libxcb-composite0, libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxtst6, lxmenu-data, lxqt-policykit
+Recommends: lxqt-about, lxqt-config, lxqt-notificationd, lxqt-panel-l10n, lxqt-qtplugin, lxqt-runner, lxqt-session, pavucontrol-qt | pavucontrol, qlipper
+Suggests: lxqt | lxqt-core
+Filename: ./lxqt-panel_1.3.0-0.1~S7_amd64.deb
+Size: 627808
+MD5sum: 342750deeca597680dfcd3c62f400088
+SHA1: dfa85ab697a8793436efb80bd01bfddb4214cbef
+SHA256: f7da91ce76fda00c4cfb3a28e39b85c017afc9d84eca60d87f41f3a1557affba
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-panel
+Description: LXQt desktop panel
+ The LXQt desktop panel
+ .
+ This package contain the LXQt panel.
+
+Package: lxqt-panel-l10n
+Source: lxqt-panel
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 2693
+Depends: qttranslations5-l10n
+Filename: ./lxqt-panel-l10n_1.3.0-0.1~S7_all.deb
+Size: 327612
+MD5sum: d4959ba7677b6e74b27fdd2c9da38525
+SHA1: 99b3d59bb166daaa4203c6f94cf053cdcddbe0e4
+SHA256: 626d6551d1a2a4a53c8be1ceff896589a3a3f204adf834d3f4b638b80ce8b3e2
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-panel
+Description: Language package for lxqt-panel
+ This package contains the l10n files needed by the lxqt-panel.
+
+Package: lxqt-policykit
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), lxqt-session
+Recommends: lxqt-policykit-l10n
+Suggests: lxqt | lxqt-core
+Provides: polkit-1-auth-agent
+Filename: ./lxqt-policykit_1.3.0-0.1~S7_amd64.deb
+Size: 20704
+MD5sum: a3caa39a61477ca460b7550ed3cc7ab1
+SHA1: fac83d994df3795407042cc97d72056227e39062
+SHA256: 861edf5b1fc0791118c8e8a8e807832504eb6504d728ff309f473db603c286f8
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-policykit
+Description: LXQt authentication agent for PolicyKit
+ The lxqt-policykit D-Bus session bus service that is used to
+ bring up authentication dialogs used for obtaining privileges.
+ .
+ This package contains the LXQt policy kit authentication agent.
+
+Package: lxqt-policykit-l10n
+Source: lxqt-policykit
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 72
+Depends: qttranslations5-l10n
+Filename: ./lxqt-policykit-l10n_1.3.0-0.1~S7_all.deb
+Size: 11772
+MD5sum: ea70945917ae3bd2b114c042cd066d00
+SHA1: c120f3cfa4c66dae64e3298116938f57c5cb1065
+SHA256: 7ad5f6e04c5b8e11c5b229ca8cf94be97697cdc5d6488516cfc245baef2e74d9
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-policykit
+Description: Language package for lxqt-policykit
+ This package contains the l10n files needed by the lxqt-policykit.
+
+Package: lxqt-powermanagement
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 358
+Depends: libc6 (>= 2.34), libkf5idletime5 (>= 4.96.0), libkf5solid5 (>= 5.6.0+git20150114.0006+15.04), libkf5windowsystem5 (>= 4.96.0), liblxqt-globalkeys1 (>= 1.1.0~), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.14.1), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5), lxqt-policykit, upower
+Recommends: lxqt-powermanagement-l10n, lxqt-qtplugin, lxqt-session
+Filename: ./lxqt-powermanagement_1.3.0-0.1~S7_amd64.deb
+Size: 81944
+MD5sum: 9e8e184e0d03fa7af5f1c209b2590058
+SHA1: 09797cf0cad3071cb72e202807e2ba807d9b13ea
+SHA256: b674854d1560234fd0341fecb5c7e7e764975bf4c8c9ad3bca1224550e825304
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-powermanagement
+Description: power management module for LXQt
+ The Power management module for LXQt.
+ .
+ This package contain power management module for LXQt.
+
+Package: lxqt-powermanagement-l10n
+Source: lxqt-powermanagement
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 442
+Depends: qttranslations5-l10n
+Filename: ./lxqt-powermanagement-l10n_1.3.0-0.1~S7_all.deb
+Size: 63408
+MD5sum: 003f31707452343ce4dba4873a6a1a8e
+SHA1: 15667e7870192ad3a948c0f49420775a8fff8dd5
+SHA256: cce3d1e3547c8cb29d8ade5ac3ee8d9422dc04c26250bc28a6317b43a566afaa
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-powermanagement
+Description: Language package for lxqt-powermanagement
+ This package contains the l10n files needed by the lxqt-powermangement.
+
+Package: lxqt-qtplugin
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.3.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), qtbase-abi-5-15-8, libfm-qt13
+Recommends: lxqt-config, lxqt-session
+Suggests: lxqt | lxqt-core
+Filename: ./lxqt-qtplugin_1.3.0-0.1~S7_amd64.deb
+Size: 38024
+MD5sum: 0769e7d66e34df32e4e24d1da78a6216
+SHA1: 00decbfcf89f3260ec523739edfa08b53e3c8bae
+SHA256: 74bb0f07bc25a74c92ba2096100d13376c2ea4d35085d63bf298c5a7fda4255f
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/lxqt-qtplugin
+Description: LXQt system integration plugin for Qt
+ With this plugin, all Qt-based programs can adopt settings of
+ LXQt, such as the icon theme.
+ .
+ This package provides the LXQt qtplugin interface.
+
+Package: lxqt-runner
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 404
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 4.96.0), liblxqt-globalkeys-ui1 (>= 1.1.0~), liblxqt-globalkeys1 (>= 1.1.0~), liblxqt1 (>= 1.2.0~), libmuparser2v5 (>= 2.3.3), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5xdg3 (>= 3.10.0~), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Recommends: lxqt-runner-l10n, lxqt-policykit, lxqt-qtplugin, lxqt-session
+Suggests: lxqt | lxqt-core
+Filename: ./lxqt-runner_1.3.0-0.1~S7_amd64.deb
+Size: 194012
+MD5sum: 89d0bcb071de6211eef22e9022cb5707
+SHA1: 0fae68d90d4e3644121ee200512edab1280be67f
+SHA256: c76ec036fb5f277a41a4392a0c93631ca0e672ba6656b0d3bb943b3be0ef0aae
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-runner
+Description: LXQt program launcher
+ The LXQt runner provides a GUI that comes up on the desktop and allows for
+ launching applications, doing some math or shutting down the system.
+ .
+ This package contain LXQt runner.
+
+Package: lxqt-runner-l10n
+Source: lxqt-runner
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: qttranslations5-l10n
+Filename: ./lxqt-runner-l10n_1.3.0-0.1~S7_all.deb
+Size: 24264
+MD5sum: 42aba5f3b5272f52f5d4331f2790722e
+SHA1: 37cf7883782fd9b31de4c1de4535b03e9f218c7b
+SHA256: 72e1ac2ce58d7f52fa032b466d51a531c05761fdb8993697216d592d069c9feb
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-runner
+Description: Language package for lxqt-runner
+ The LXQt runner provides a GUI that comes up on the desktop and allows for
+ launching applications, doing some math or shutting down the system.
+ .
+ This package contains the l10n files needed by the lxqt-runner.
+
+Package: lxqt-session
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 488
+Depends: lxqt-qtplugin, lxqt-themes | lxqt-theme, x11-xkb-utils, libc6 (>= 2.34), libkf5windowsystem5 (>= 4.98.0), liblxqt1 (>= 1.2.0~), libproc2-0 (>= 2:4.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5), libudev1 (>= 183), libx11-6
+Recommends: lxqt-config, lxqt-notificationd, lxqt-policykit, lxqt-powermanagement, lxqt-session-l10n, lxqt-sudo, pcmanfm-qt, qlipper, qps, xscreensaver | gnome-screensaver | light-locker | i3lock | suckless-tools
+Provides: x-session-manager
+Filename: ./lxqt-session_1.3.0-0.1~S7_amd64.deb
+Size: 127608
+MD5sum: 2f0c4a002166687498b65acaa9075e8d
+SHA1: 63871ae9e5c96ffa48011b107f7104cb6d35a407
+SHA256: 79f61fd6440c6af7aafbf3084630da3e0bcf28d2bcbdca83645f6edfa5def77c
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-session
+Description: session manager component for LXQt
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on
+ Qt technologies.  It has been tailored for users who value simplicity,
+ speed, and an intuitive interface.  Unlike most desktop environments,
+ LXQt also works fine with less powerful machines.
+ .
+ This package contain the session manager component.
+
+Package: lxqt-session-l10n
+Source: lxqt-session
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 444
+Depends: qttranslations5-l10n
+Filename: ./lxqt-session-l10n_1.3.0-0.1~S7_all.deb
+Size: 67228
+MD5sum: 35ca5054789e5e224a80fd80fc60a5f2
+SHA1: 412a59987c073397af325c77dfcd1020170b3565
+SHA256: 711834850fc52b318944b5bfa7073115b49817f48be17726c1714ce265e02473
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-session
+Description: Language package for lxqt-session
+ The l10n files for lxqt-session.
+ .
+ This package contains the l10n files needed by lxqt-session.
+
+Package: lxqt-sudo
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 9)
+Recommends: lxqt-sudo-l10n, lxqt-qtplugin
+Filename: ./lxqt-sudo_1.3.0-0.1~S7_amd64.deb
+Size: 24256
+MD5sum: a5861a665efebd4d35cb6f7cd5585e39
+SHA1: 27ee94e1ccb380f35fc49924fab430162022e2b2
+SHA256: 1bbc584cd93246b0ccfbd41245e445b99ec9367ff8bde3c60daf001860b1eb33
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-sudo
+Description: Graphical Qt frontend for plain sudo
+ lxqt-sudo is a graphical Qt frontend for plain sudo(8) (for requesting
+ optional password in GUI fashion). When invoked it simply spawns child sudo
+ process with requested command (and arguments). If sudo requests user's
+ password, the GUI password dialog is shown and (after submit) the password is
+ provided to sudo.
+
+Package: lxqt-sudo-l10n
+Source: lxqt-sudo
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 155
+Depends: qttranslations5-l10n
+Filename: ./lxqt-sudo-l10n_1.3.0-0.1~S7_all.deb
+Size: 25988
+MD5sum: add7b42758e8fc07e09b36245944a2f9
+SHA1: a9ea7a8e2c1dadb7cb955e19b233d2d93cedec74
+SHA256: 95131ce94f687b8fe7e193a5a53368b0ba361114d2cb73c209c7032492339b91
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-sudo
+Description: Language package for lxqt-sudo
+ The l10n files for lxqt-sudo.
+ .
+ This package contains the l10n files needed by lxqt-sudo.
+
+Package: lxqt-system-theme
+Source: lxqt-themes
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1072
+Depends: x11-utils
+Recommends: papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme
+Breaks: lxqt-common (<< 0.12.0)
+Replaces: lxqt-common (<< 0.12.0)
+Filename: ./lxqt-system-theme_1.3.0-0.1~S7_all.deb
+Size: 896364
+MD5sum: 0375808fd839d456a7673e3fd882190e
+SHA1: 920dd98dea324d18d36445bd06ff4b0c3f1c62e3
+SHA256: d7f376e78e35f0fbd7952e4b767136f61e3602daf5aa01d7200159fcd23a2021
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-themes
+Description: System theme for LXQt
+ The System theme for LXQt provide basic styling for LXQt system
+ components
+ .
+ This Package contains LXQt system theme files.
+
+Package: lxqt-themes
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 26044
+Depends: lxqt-system-theme
+Provides: lxqt-theme
+Filename: ./lxqt-themes_1.3.0-0.1~S7_all.deb
+Size: 25779296
+MD5sum: 6bcbb4fdfceb495aa380e2a64f2f3f6b
+SHA1: 435a4960c16c8a5759ed85d4026e418c9bb15cc0
+SHA256: 27bc0052079691dcb3977713e0d55a96973a7642d7ea653b393b4046451a0cc5
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/lxqt-themes
+Description: Themes for LXQt
+ Some upstream themes for LXQt
+  * Ambiance
+  * Dark
+  * Frost
+  * KDE-Plasma
+  * Light
+  * System
+  * Silver
+  * Arch-colors
+ .
+ This Package contains LXQt theme files.
+
+Package: pavucontrol-qt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 264
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.16.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 4.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), pulseaudio | pipewire-pulse
+Recommends: pavucontrol-qt-l10n
+Filename: ./pavucontrol-qt_1.3.0-0.1~S7_amd64.deb
+Size: 72020
+MD5sum: 8112627d78268665aeb8864d262a4dc5
+SHA1: b9957afcb4293f113778fbf97e55937058af30d0
+SHA256: 35b7b54f41b5cdab8aaa6f9de8bc70ac1e9cd49c548f8f84e84d7f5bfac87b05
+Section: utils
+Priority: optional
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Qt port of volume control pavucontrol
+ Qt port of volume control pavucontrol of sound server PulseAudio. As such it
+ can be used to adjust all controls provided by PulseAudio as well as some
+ additional settings.
+ .
+ The software belongs to the LXQt project but its usage isn't limited to this
+ desktop environment.
+ .
+ This package contain the application files.
+
+Package: pavucontrol-qt-l10n
+Source: pavucontrol-qt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 729
+Depends: qttranslations5-l10n
+Filename: ./pavucontrol-qt-l10n_1.3.0-0.1~S7_all.deb
+Size: 85580
+MD5sum: dfe03b6eba582c0b76b6b6a082a047a5
+SHA1: 8ff04e87f7ea211c01f712bb6bf5b0f9cf553112
+SHA256: f6680e46ebcd2eb104e159bd849d90438e1880ca9e5c5fca511e5482f087c9e1
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/pavucontrol-qt
+Description: Language package for pavucontrol-qt
+ The l10n files for pavucontrol-qt.
+ .
+ This package contains the l10n files needed by the pavucontrol-qt.
+
+Package: pcmanfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 802
+Depends: libc6 (>= 2.34), libfm-qt13 (>= 1.3.0~), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.14.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libxcb1, default-dbus-session-bus | dbus-session-bus | dbus-x11, desktop-file-utils, lxqt-sudo
+Recommends: eject, ffmpegthumbnailer, gvfs-backends, gvfs-fuse, lximage-qt, lxqt-policykit, lxqt-qtplugin, papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme, pcmanfm-qt-l10n
+Suggests: cdtool
+Filename: ./pcmanfm-qt_1.3.0-0.1~S7_amd64.deb
+Size: 235476
+MD5sum: d8943767d303df942839d1f0ebdd8125
+SHA1: 1562a22a3833f7892af8107e6faa769e25784faa
+SHA256: 8449a967fb17ddfcfdebc5f6899070a49928c4b96ae164494d59c744df7d730a
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/pcmanfm-qt
+Description: extremely fast and lightweight file and desktop icon manager
+ PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.
+ .
+ Libfm-Qt is a companion library providing components to build desktop file
+ managers.
+
+Package: pcmanfm-qt-l10n
+Source: pcmanfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1775
+Depends: qttranslations5-l10n
+Filename: ./pcmanfm-qt-l10n_1.3.0-0.1~S7_all.deb
+Size: 253656
+MD5sum: 42ceaf50b24ae95e4bbf99c667db1740
+SHA1: edc99da42b095495497cb0ffdff8f6efe37ea361
+SHA256: c7da06ec07cac21dc52bd8f1d1d2cbf90418d8579a3145340b4f51e6613acca5
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/pcmanfm-qt
+Description: Language package for pcmanfm-qt
+ PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.
+ .
+ This package contains the l10n files needed by pcmanfm-qt.
+
+Package: qps
+Version: 2.7.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1278
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5.2)
+Filename: ./qps_2.7.0-0.1~S7_amd64.deb
+Size: 266632
+MD5sum: 55414bc810433ea5b2c581df415081a1
+SHA1: 34befee9f070acaae540830f46366658801a0ff8
+SHA256: 82dcd655d8a0b4f14dc287f68d9f41ce8274a7bc9c5a717253d0c6c60ab854aa
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/qps
+Description: Qt process manager
+ Qt process manager ported to Qt5
+
+Package: qterminal
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 540
+Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqtermwidget5-1 (>= 1.3.0), libstdc++6 (>= 5), libx11-6
+Recommends: qterminal-l10n
+Provides: x-terminal-emulator
+Filename: ./qterminal_1.3.0-0.1~S7_amd64.deb
+Size: 153808
+MD5sum: a245b6b2de73bbc9c76317f42df92a4e
+SHA1: 9739cdbebfa89738ee34a00a6ea5f871a7d81c54
+SHA256: 57253a471d1fe6a70f4bcd3abbebef32016c22c7dd3e8784ae51d71b8cd325bf
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/qterminal
+Description: Lightweight Qt terminal emulator
+ QTerminal is a lightweight terminal emulator based on QTermWidget.
+ .
+ Among other it features
+   * Split terminals (horizontally and vertically).
+   * Multiple tabs.
+   * Customizable shortcuts.
+   * Various color schemes.
+
+Package: qterminal-l10n
+Source: qterminal
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 741
+Depends: qttranslations5-l10n
+Filename: ./qterminal-l10n_1.3.0-0.1~S7_all.deb
+Size: 120052
+MD5sum: acadb591ecf94b3191041ce88ca072ca
+SHA1: 304dc64f96135c6abb8589bef4abfde7358eef1f
+SHA256: 6180acdbb1a06c8fde23098943e69665d88339c807e741208c6d328f385412ff
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/qterminal
+Description: Language package for qterminal
+ The l10n files for qterminal.
+ .
+ This package contains the l10n files needed by qterminal.
+
+Package: qtermwidget5-data
+Source: qtermwidget
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 224
+Filename: ./qtermwidget5-data_1.3.0-0.1~S7_all.deb
+Size: 38040
+MD5sum: 1655bfc93933fe2e22996032631810c8
+SHA1: bb4f8d2724cd6fbad17ecce9c72511d3c2377726
+SHA256: e22e343550b846b8b5cf423e83fb8dda5b3698ca38a43d27713050fde702c7d8
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/qtermwidget
+Description: Terminal emulator widget for Qt 5 (data files)
+ QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
+ built-in console or terminal emulation widget.
+ .
+ This package provides data files like translations, keyboard layouts
+ and color schemes.
+
+Package: qtxdg-dev-tools
+Source: libqtxdg
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 70
+Depends: libqt5xdg3 (= 3.11.0-0.1~S7), libqt5xdgiconloader3 (= 3.11.0-0.1~S7), libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Filename: ./qtxdg-dev-tools_3.11.0-0.1~S7_amd64.deb
+Size: 20872
+MD5sum: 2175455b9a61cc82afa3e4e1dadb4183
+SHA1: 9ebb9612bd50ff30a594543c0e0f477d03e3d1bb
+SHA256: 0a5e5931f2c2aa603afb72969104fa99f9f10f1063b15af0bbf19cb25d4b3d20
+Section: devel
+Priority: optional
+Homepage: https://github.com/lxqt/libqtxdg
+Description: Tools for QtXdg
+ This package provide some tools for qtxdg:
+ .
+  * qtxdg-desktop-file-start - QtXdg XdgDesktopFile start Tester
+  * qtxdg-iconfinder - Find icons the QtXdg way
+  * qtxdg-mat - Mime app tool for QtXdg
+
+Package: qtxdg-tools
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 104
+Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Breaks: qtxdg-dev-tools (<< 3.10.1)
+Replaces: qtxdg-dev-tools (<< 3.10.1)
+Filename: ./qtxdg-tools_3.11.0-0.1~S7_amd64.deb
+Size: 24000
+MD5sum: a434032f6dc0cfa5ff32229c0abcd4e9
+SHA1: e8cd7accaf0e20cdf5fca5a88c2d60a17cb566a0
+SHA256: d7ed497fe47ca87db703c0987ecf4724a7b1c9966d587d9a092b737ae06fca9b
+Section: libs
+Priority: optional
+Homepage: https://github.com/lxqt/qtxdg-tools
+Description: User tools for libqtxdg
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contains a CLI MIME tool, qtxdg-mat, for handling file
+ associations and opening files with their default applications.
+
+Package: screengrab
+Version: 2.6.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 980
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 4.96.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5), libx11-xcb1 (>= 2:1.8.4), libxcb-xfixes0
+Filename: ./screengrab_2.6.0-0.1~S7_amd64.deb
+Size: 213988
+MD5sum: 04c9e9204712ef38290024804352013e
+SHA1: ce7a27964691fd51015b13350395b68c51eb51a0
+SHA256: 0abaf97c7f2162ba4f682b3c0a229e4632c4c97b0b5c3d4d09e983ca7c7f9489
+Section: graphics
+Priority: optional
+Homepage: https://github.com/lxqt/screengrab
+Description: Crossplatform tool for getting screenshots
+ Screengrab working in Linux and Windows. The program uses Qt and is
+ independent of any desktop environment.
+ Main features:
+  * Get desktop screenshots
+  * Get active window screenshots
+  * Get secreenshots of desktop selection area
+  * Copy screenshot to clipboard
+  * Saving your image files in formats PNG or JPEG or BMP
+  * Ability to set delay in getting screenshots (from 1 to 90 seconds)
+
+Package: xdg-desktop-portal-lxqt
+Version: 0.4.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libfm-qt13 (>= 1.3.0~), libgcc-s1 (>= 3.0), libkf5windowsystem5 (>= 5.62.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), qtbase-abi-5-15-8
+Provides: xdg-desktop-portal-backend
+Filename: ./xdg-desktop-portal-lxqt_0.4.0-0.1~S7_amd64.deb
+Size: 37052
+MD5sum: ed89416f84f53a4c0cd817146cd31ebe
+SHA1: 3f284ceeb043c5820fb3ab234e0a96058d58ae5b
+SHA256: 98d109412a86a5ac9f062dfca4129c3d21c194048609747f4e9230f060092a16
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
+Description: LXQt portal backend for xdg-desktop-portal
+ xdg-desktop-portal-lxqt is backend implementation for xdg-desktop-portal,
+ that is using Qt/KF5/libfm-qt.
+
