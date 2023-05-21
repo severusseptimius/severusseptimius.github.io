@@ -21,4 +21,4 @@ Than download the public key:
 
 And finally update and enjoy:
 
-> sudo apt update && sudo apt upgrade
+> sudo apt update && sudo apt full-upgrade
