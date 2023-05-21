@@ -1,0 +1,7 @@
+Origin: LXQt 1.3
+Label: LXQt 1.3
+Codename: unstable
+Architectures: source amd64
+Components: main
+Description: Apt repository for LXQt 1.3
+SignWith: 3B89F0D9737B17C2D730184953624A55C40A4466
