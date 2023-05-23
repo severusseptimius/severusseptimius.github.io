@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 23 May 2023 17:00:12 +0000
+MD5Sum:
+ 05e9b141d48e356b8424fa5d0a0a2ca9            58079 Packages
+ 91bf844243ce7fabac6a24f8403f1e71            13923 Packages.gz
+ ac04bfd0093a139b6c03121a36a4915a               38 Release
+ 15318c4485f2bffda5f9dce2bc260527            57652 lxqt13/Packages
+ 53cb854459393aa29e3c5db74b2e9551            13909 lxqt13/Packages.gz
+ 456d3203cdcee63efcb310d27a77f07b             1204 lxqt13/Release
+SHA1:
+ b0ba2a9944edc96d8ea9e99cbd8a0932e00da1a7            58079 Packages
+ ce609c19040af095d7e1d25784f75607306fa725            13923 Packages.gz
+ 763caf87e5111e14c0ed44c93590616cf3939ac1               38 Release
+ ab77228ca5ae4cf14e6734ea40f10a308b4891c1            57652 lxqt13/Packages
+ 4d5c82bd8f39da0275a95a17d1308df43cba10af            13909 lxqt13/Packages.gz
+ 0b04efde2034ab9fd46f0d73ce3bc3ac9bd43783             1204 lxqt13/Release
+SHA256:
+ 2c4d4783c519aa8a85bbcbe525f48274510ae883ccd371f530a291b52dec3f1e            58079 Packages
+ 3748a7667ba8d09185e0fc5330d43a91922baf4b865044fc1f7cd8760400ae08            13923 Packages.gz
+ 0d05a4d41c8d771c1ed89730462ba46003e35aeda77d13d7d59a15e0e98b216e               38 Release
+ 828850f4b3f7bcce3c97eebb830724a41ec35f2ce4ebe6d1362b5dcf97d69d35            57652 lxqt13/Packages
+ b1a1abccd1f762dafc2f898e890b23372fde5f7b15b6ec60fb7d8ba185096076            13909 lxqt13/Packages.gz
+ 087d3d20d3f2b6bc6be77efaffe66cacd0a4322bed82ba0c37d5aa47f33d8c9b             1204 lxqt13/Release
+SHA512:
+ a82ba6c6aea81aeaaff16ebc4b0b1ad43b8398c5cf382d523e8561300cb6aedbcb8f66edca2f0dbbcdd4c885697701f0d7de861518ca979deb38f93de0c96cbc            58079 Packages
+ cb63c39eb213d60f11b09cd35a3f58fd8594712cbc6df73693b910392c768ab7e3e12714ae9558725f1b2daf011f6e38d6542a3447b1d7309dc958b8cb0bd089            13923 Packages.gz
+ 13612259843d27125896252c9886e66a57cee779201f4fdcef8986ddac3c2796b3e72cd74a0dcec5cf763f0dc633270da72e5acda5e3807dd1a0370ac831d9a6               38 Release
+ 4562afa991e4200751df5b5dec40eb31e7732448d92cae7a9fd0b86650f5d0077523c1248f116796e06c546353f1137353bc93c510c1ed0ab470c84c1c7a8489            57652 lxqt13/Packages
+ 60c275c954b97be7f0f9dde4df9a2091172d9dbe798879588cc51662bf6906da073aef4b5af704c6c9026bffccef73a761a9b87b453cf26bed5a2c477fdb7311            13909 lxqt13/Packages.gz
+ 74166db900dc9959ffbdedf4908bd192f2993c6524f4491592d0203d8d82a05c7b009bebfae412834186eb41419bc8eaec2c410922db6c91adc7c35c1e41f32c             1204 lxqt13/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQHPBAEBCgA5FiEEjrnX7RZz/aH5mV2W5T5C2WypngoFAmRs8UYbHHNldmVydXNl
+cHRpbWl1czdAZ21haWwuY29tAAoJEOU+QtlsqZ4KTD8L/jpislr1/VGlezjzOxws
+G/nHpL3jUaOFprI1gVMAstoEY3wAyuxMvWTS7JcH59yi4U+oYC7KutOVlTwL1L7/
+dqSDwjw/e7DM4FlM9IWyfO2M/Q470kswdeEzwcU3m0ydJI0K6jsC50Gm7Gt3eQ0p
+wrqe4TocOL+FXwkhU0Goe2vN6WjI8y4VXJYrMMASG2UbTGTvmCXxF8L757A9qame
+RQRTTNy+dJ9i5iaeUwXYoGQ6Lc5MyqIPbaLAJGOK820Q1LNY81sNYmGQxryquNvU
++veEbVPKU1rB7DudVzeLsoNYrnlVzsqpRS+0uj9mpDvrvmvkO6pfM0JVFD7KP3xU
+ttFIpjuTwrByXuO9rGSXof3VbXzHX+PaE0BZEs9hd2XSjOdZMDFo1IBhcezKOMC/
+Q/ljHczn0xPoGTZ+/vF9oo8z75YDxu/GnbMx6AaTo06/pLSDipVviUdJQ4YhmAg/
+EX4rZGKKch0I/8oST4FBdWWEFoUK8p78tkQyyYRHkZn4XQ==
+=f2Wq
+-----END PGP SIGNATURE-----
